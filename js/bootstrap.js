@@ -43,6 +43,15 @@
     return obj;
   }
 
+  $('.content-section').css({
+    opacity: function() {
+      var elementHeight = $(this).height(),
+          opacity = ((1 - (elementHeight - scrollTop) / elementHeight) * 0.8) + 0.2;
+
+      return opacity;
+    }
+  });
+
   function _objectSpread(target) {
     for (var i = 1; i < arguments.length; i++) {
       var source = arguments[i] != null ? arguments[i] : {};
