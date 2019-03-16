@@ -42,6 +42,18 @@ html {
   width:auto;
 }
 
+#about{
+  background: url("../img/ink.png");
+  background-size: cover;
+
+
+}
+
+#aboutinfo{
+  background: white;
+  background-size: cover;
+
+}
 
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -69,9 +81,8 @@ html {
 h10{
   color:#1D809F;
 }
-.changeColor {
-   background: white;
-}
+
+
 
 .displayNone {
    display: none;
@@ -215,8 +226,8 @@ h6 {
   height: auto;
   padding-top: 6rem;
   padding-bottom: 8rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-main2.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-main2.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-main2.png");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-main2.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -224,6 +235,7 @@ h6 {
   background-position: center;*/
     background-size: cover;
 }
+
 
 .masthead h1 {
   font-size: 4rem;
