@@ -35,8 +35,6 @@
 
 <body id="page-top">
 
-
-
   <!-- Navigation -->
   <a class="menu-toggle rounded" href="#">
     <i class="fas fa-bars"></i>
@@ -88,16 +86,28 @@
   <section class="content-section d-flex bg-white" id="about">
     <div class="container text-center">
       <div class="row">
-        <div class="col-lg-12 mx-auto">
-          <h2 id="Hello" >Hello!</h2>
-          <img id= "portfoliopic" src="img/jay.jpg" class="rounded-circle" width="250" height="250">
+        <div class="col-lg-8 offset-lg-4">
+          <h2 style="margin-bottom:30px;" id="Hello" >Hello!</h2>
           <p></p>
-          <p class="lead mb-5"> My name is Jay Mendapara and I am a programmer, photographer, and a graphic designer. I am currently pursuing a B.S. in Computer Science with a
-             minor in Psychology at Rutgers University. My journey into the world of photography kicked off a few years ago, when I first started sharing my perspective of the world with others. Over time, my objective of photography shifted from sharing my personal experiences to sharing the beauty of the world through nature photography and photojournalism. I am fascinated by landscapes, wildlife, and unique lifestyles so I work hard to integrate those elements into my portfolio. I started programming towards the end of high school, when I discovered the creative potential of a few lines of code. Soon after, I started to develop a strong passion for web development as it embodies creativity and human interaction. Today, I am ready to use what I have learned in school and on my own to overlook real-world projects with a fresh set of eyes. Here is my <span class="badge badge-light"><a target="_blank" id = "resume" href="Mendapara,Jay-2019.pdf">resume</a></span>. </p>
-          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#skills">What I Use</a>
         </div>
       </div>
+
+      <div   style= "border-radius:25px;" id= "aboutinfo" class="row">
+        <div class="col-lg-0 mx-auto">
+          <img id= "portfoliopic" src="img/jay.jpg" class="rounded-circle" width="250" height="250">
+        </div>
+
+        <div class="col-lg-8 mx-auto">
+          <p class="lead mb-5"> My name is Jay Mendapara and I am a programmer, photographer, and a graphic designer. I am currently pursuing a B.S. in Computer Science with a
+             minor in Psychology at Rutgers University. My journey into the world of photography kicked off a few years ago, when I first started sharing my perspective of the world with others. Over time, my objective of photography shifted from sharing my personal experiences to sharing the beauty of the world through nature photography and photojournalism. I am fascinated by landscapes, wildlife, and unique lifestyles so I work hard to integrate those elements into my portfolio. I started programming towards the end of high school, when I discovered the creative potential of a few lines of code. Soon after, I started to develop a strong passion for web development as it embodies creativity and human interaction. Today, I am ready to use what I have learned in school and on my own to overlook real-world projects with a fresh set of eyes. Here is my <span class="badge badge-light"><a target="_blank" id = "resume" href="Mendapara,Jay-2019.pdf">resume</a></span>. </p>
+        </div>
+
+      </div>
+
+      <a class="btn btn-light btn-xl js-scroll-trigger" style="margin-top:40px;" href="#skills">What I Use</a>
+
     </div>
+
   </section>
 
   <!-- Skills -->
@@ -199,19 +209,31 @@
                <h4 class="card-title">
                  <a href="#">International Space Station Tracker (html, css, p5.js, Google Maps API)</a>
                </h4>
-               <p class="card-text">Shows a live Google map of the current location of the International Space Station and tracks its path.</p>
+               <p class="card-text">A web app that uses the Google Maps API and an International Space Station location API to display the location of the ISS in real-time.</p>
              </div>
            </div>
          </div>
 
          <div class="col-lg-6 mb-4">
            <div class="card h-100">
-             <a href="#"><img class="card-img-top" src="img/hackhers.jpg" alt=""></a>
+             <a target="_blank" href="https://devpost.com/software/exxonmobile-data-science-hack"><img class="card-img-top" src="img/hackhers.jpg" alt=""></a>
              <div class="card-body">
                <h4 class="card-title">
-                 <a target="_blank" href="https://devpost.com/software/exxonmobile-data-science-hack">HPC Metric Analysis</a>
+                 <a target="_blank" href="https://devpost.com/software/exxonmobile-data-science-hack">HPC Metric Analysis (Micrsoft BI and Excel)</a>
                </h4>
-               <p class="card-text"><b>Winner of the 2019 HackHERS Best AI/Data Science Hack and ExxonMobil's Best Use of Dual Energy Dataset Challenge</b> - Applied data visualtion to analyse sample data provided by Exxon and recommended solutions to efficiently minimize job times.</p>
+               <p class="card-text"><b>Winner of the 2019 HackHERS "Best AI/Data Science Hack" and "ExxonMobil's Best Use of Dual Energy Dataset Challenge"</b> - Applied data visualtion to analyse sample data provided by Exxon and recommended solutions to efficiently minimize job times.</p>
+             </div>
+           </div>
+         </div>
+
+         <div class="col-lg-6 mb-4">
+           <div class="card h-100">
+             <a href="#"><img class="card-img-top" src="img/pack.png" alt=""></a>
+             <div class="card-body">
+               <h4 class="card-title">
+                 <a href="#">Pack Trak (Merck API, node.js, JavaScript, html, css)</a>
+               </h4>
+               <p class="card-text"><b>Winner of the 2019 HackRU "Best use of the Merck API"</b> - Used the Merck API to visualize the path of a drug specified by the user.</p>
              </div>
            </div>
          </div>
@@ -223,21 +245,11 @@
                <h4 class="card-title">
                  <a target="_blank" href="https://devpost.com/software/mad-libs-texting-game">Mobile Libs (node.js, Twilio API)</a>
                </h4>
-               <p class="card-text"><b>Winner of the 2018 HackRU Twilio Sponor Award</b> - A virtual Madlibs game where multiple players message in their responses to a phone number and the phone numbers texts back the completed story.</p>
+               <p class="card-text"><b>Winner of the 2018 HackRU "Best use of the Twilio API"</b> - A virtual Madlibs game where multiple players message in their responses to a phone number and the phone numbers texts back the completed story.</p>
              </div>
            </div>
          </div>
-         <div class="col-lg-6 mb-4">
-           <div class="card h-100">
-             <a href="#"><img class="card-img-top" src="img/WeatherApp.jpg" alt=""></a>
-             <div class="card-body">
-               <h4 class="card-title">
-                 <a href="#">Weather Outside (html, css, p5.js, OpenWeather API)</a>
-               </h4>
-               <p class="card-text">Displays the current temperature of a given location. This applicaiton was my first implementation of a web API.</p>
-             </div>
-           </div>
-         </div>
+
          <div class="col-lg-6 mb-4">
            <div class="card h-100">
              <a href="#"><img class="card-img-top" src="img/Expression.jpg" alt=""></a>
@@ -474,7 +486,7 @@
         <!--Grid column-->
         <div class="col-md-9 mb-md-0 mb-5">
 
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+            <form id="contact-form" name="contact-form" action="https://formspree.io/jmendapara@gmail.com" method="POST">
 
                 <!--Grid row-->
                 <div class="row">
