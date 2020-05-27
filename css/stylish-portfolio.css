@@ -45,6 +45,7 @@ html {
 #about{
   background: white;
   background-size: cover;
+  
 
 
 }
@@ -53,6 +54,83 @@ html {
   background: white;
   background-size: cover;
 
+}
+
+.moving{
+
+  y-transition: all 1s ease-in-out;
+  animation: ani 3s infinite;
+  animation-delay: .25s;
+
+}
+
+.moving2{
+
+  
+  y-transition: all 1s ease-in-out;
+  animation: ani 3s infinite;
+  animation-delay: .75s;
+
+
+}
+
+.moving3{
+
+  
+  y-transition: all 1s ease-in-out;
+  animation: ani 3s infinite;
+}
+
+.moving4{
+
+  
+  y-transition: all 1s ease-in-out;
+  animation: ani 3s infinite;
+  animation-delay: .5s;
+
+}
+
+.moving5{
+
+  
+  y-transition: all 1s ease-in-out;
+  animation: ani 3s infinite;
+  animation-delay: 1s;
+
+}
+
+.moving6{
+
+  
+  y-transition: all 1s ease-in-out;
+  animation: ani 3s infinite;
+  animation-delay: .25s;
+
+}
+
+.moving7{
+
+  
+  y-transition: all 1s ease-in-out;
+  animation: ani 3s infinite;
+  animation-delay: .75s;
+
+}
+
+
+
+@keyframes ani {
+  0% {
+    top: 0;
+  }
+  
+  50% {
+    top: 20px;
+  }
+  100% {
+    top: 0;
+  }
+}
 }
 
 .typewriter h1 {
@@ -82,6 +160,20 @@ h10{
   color:#1D809F;
 }
 
+.noHover{
+  text-decoration: none;
+  font-size: 30px;
+  padding-right:5px;
+  padding-left:5px;
+  color: black;
+ 
+}
+
+
+.noHover:hover{
+  text-decoration: none;
+  
+}
 
 
 .displayNone {
@@ -111,30 +203,13 @@ ul.timeline {
     color:#777777;
 }
 ul.timeline:before {
-    content: ' ';
-    background: #d4d9df;
-    display: inline-block;
-    position: absolute;
-    left: 34px;
-    width: 2px;
-    height: 100%;
-    z-index: 400;
+   
 }
 ul.timeline > li {
-    margin: 20px 0;
-    padding-left: 30px;
+  
 }
 ul.timeline > li:before {
-    content: ' ';
-    background: #f8f9fa;
-    display: inline-block;
-    position: absolute;
-    border-radius: 50%;
-    border: 2px solid #1D809F;
-    left: 20px;
-    width: 30px;
-    height: 30px;
-    z-index: 400;
+  
 }
 
 .btn-xl {
@@ -267,7 +342,7 @@ width:auto;  }
 
 .badge {
   font-size: 17px;
-  color: white;
+  color: black;
 
 }
 
